@@ -38,6 +38,7 @@
     <Compile Include="RegisterEventArgs.cs" />
     <Compile Include="SMSSender.cs" />
     <Compile Include="Server.cs" />
+    <Compile Include="User.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

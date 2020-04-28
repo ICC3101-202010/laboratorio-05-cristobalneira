@@ -119,6 +119,11 @@ namespace Proyecto5Neira
             }
             return "http://pluscorporation.com/verificar-correo.php?=" + usr + "_" + result;
         }
+        public void OnEmailVerified(object source, EventArgs args)
+        {
+            Console.WriteLine("Se ha verificado tu mail en tu cuenta de PlusCorp");
+            Thread.Sleep(3000);
+        }
 
     }
 }
